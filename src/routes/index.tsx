@@ -150,7 +150,7 @@ function Index() {
             <span
               key={state}
               className="label animate-fade-in absolute left-1/2 -translate-x-1/2 text-sm tracking-widest uppercase"
-              style={{ top: "calc(50% + 70px)", color: accent }}
+              style={{ top: "calc(50% + 42px)", color: accent }}
             >
               {positive ? "Expansion mode" : "Contraction mode"}
             </span>

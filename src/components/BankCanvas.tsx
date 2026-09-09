@@ -129,7 +129,7 @@ export function BankCanvas({ state }: { state: State }) {
       ctx.clearRect(0, 0, width, height);
 
       const cx = width / 2;
-      const cy = height / 2;
+      const cy = height / 2 - 28;
       const outward = t;
       const dir = 1 - 2 * outward; // +1 inward, -1 outward
       const R = maxR();
