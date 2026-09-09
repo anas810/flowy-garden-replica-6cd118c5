@@ -92,7 +92,7 @@ export function IssuanceRate({ state }: { state: State }) {
       </div>
 
       <span className="label block text-center text-[10px] text-black">
-        climbing (if sustained)
+        {positive ? "climbing (if sustained)" : "cut immediately"}
       </span>
 
       <style>{`
