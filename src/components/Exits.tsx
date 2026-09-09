@@ -7,14 +7,14 @@ export function Exits({ state }: { state: State }) {
 
   return (
     <div
-      className="exits pointer-events-none absolute right-8 bottom-14 w-36 sm:right-14 sm:bottom-18 sm:w-44"
+      className="exits pointer-events-none absolute right-8 bottom-8 flex w-40 flex-col items-center sm:right-14 sm:bottom-10 sm:w-48"
       aria-hidden="true"
     >
-      <span className="label block -translate-x-2 text-center text-[10px] text-muted-foreground">
+      <span className="label flex h-4 w-full items-center justify-center text-center text-[10px] text-muted-foreground">
         Exits
       </span>
 
-      <div className="relative mt-1 flex flex-col items-center gap-1">
+      <div className="relative mt-1 flex h-28 w-full flex-col items-center justify-center">
         {/* closed bank + running man */}
         <svg
           viewBox="0 0 118 76"
