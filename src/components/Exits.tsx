@@ -14,7 +14,7 @@ export function Exits({ state }: { state: State }) {
         Exits
       </span>
 
-      <div className="relative mt-4 flex flex-col items-center gap-3">
+      <div className="relative mt-1 flex flex-col items-center gap-1">
         {/* closed bank + running man */}
         <svg
           viewBox="0 0 118 76"

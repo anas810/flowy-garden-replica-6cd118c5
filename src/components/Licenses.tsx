@@ -13,7 +13,7 @@ export function Licenses({ state }: { state: State }) {
         Licenses
       </span>
 
-      <div className="relative mt-4 flex h-28 flex-col items-center justify-center">
+      <div className="relative mt-1 flex h-28 flex-col items-center justify-center">
         {/* paper license + price tag */}
         <div className="relative flex h-16 items-center justify-center">
           {/* paper license */}
