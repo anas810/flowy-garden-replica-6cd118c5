@@ -6,7 +6,7 @@ export function Licenses({ state }: { state: State }) {
 
   return (
     <div
-      className="licenses pointer-events-none absolute right-6 top-[24%] w-36 sm:right-16 sm:w-44"
+      className="licenses pointer-events-none absolute right-8 top-8 w-36 sm:right-14 sm:top-10 sm:w-44"
       aria-hidden="true"
     >
       <span className="label block text-center text-[10px] text-muted-foreground">
