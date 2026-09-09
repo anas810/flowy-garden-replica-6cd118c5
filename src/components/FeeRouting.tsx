@@ -157,6 +157,10 @@ export function FeeRouting({ state }: { state: State }) {
         </div>
       </div>
 
+      <span className="label block text-center text-[10px] text-black">
+        {positive ? "hard reserve assets" : "buyback and burn"}
+      </span>
+
       <style>{`
         @keyframes fee-fly-vault {
           0%   { left: 0;    transform: translateY(-50%) scale(0.6); opacity: 0; }
