@@ -73,6 +73,9 @@ export function Exits({ state }: { state: State }) {
           </g>
         </svg>
 
+        <span className="label block text-center text-[10px] text-black">
+          {positive ? "cheap" : "priced by the crowd"}
+        </span>
       </div>
 
       <style>{`
