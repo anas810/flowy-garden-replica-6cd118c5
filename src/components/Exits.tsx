@@ -18,7 +18,7 @@ export function Exits({ state }: { state: State }) {
         {/* closed bank + running man */}
         <svg
           viewBox="0 0 118 76"
-          className="h-20 w-auto"
+          className="h-20 w-auto translate-x-2"
           fill="none"
           stroke={accent}
           strokeWidth="1.5"
