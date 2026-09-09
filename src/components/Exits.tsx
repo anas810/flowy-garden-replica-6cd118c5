@@ -73,13 +73,6 @@ export function Exits({ state }: { state: State }) {
           </g>
         </svg>
 
-        {/* state label */}
-        <span
-          className="label text-center text-[10px]"
-          style={{ color: accent }}
-        >
-          {label}
-        </span>
       </div>
 
       <style>{`
