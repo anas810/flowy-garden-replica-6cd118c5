@@ -13,7 +13,7 @@ export function IssuanceRate({ state }: { state: State }) {
         Issuance rate
       </span>
 
-      <div className="relative mt-8 h-28">
+      <div className="relative mt-3 h-28">
         {/* sparkline behind the token */}
         <svg
           viewBox="0 0 120 70"
