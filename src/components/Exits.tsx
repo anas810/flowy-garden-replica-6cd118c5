@@ -10,7 +10,7 @@ export function Exits({ state }: { state: State }) {
       className="exits pointer-events-none absolute right-8 bottom-14 w-36 sm:right-14 sm:bottom-18 sm:w-44"
       aria-hidden="true"
     >
-      <span className="label block text-center text-[10px] text-muted-foreground">
+      <span className="label block -translate-x-2 text-center text-[10px] text-muted-foreground">
         Exits
       </span>
 
