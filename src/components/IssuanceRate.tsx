@@ -91,6 +91,10 @@ export function IssuanceRate({ state }: { state: State }) {
         </div>
       </div>
 
+      <span className="label block text-center text-[10px] text-black">
+        climbing (if sustained)
+      </span>
+
       <style>{`
         @keyframes issuance-mint {
           0%   { transform: scale(0) translateY(10px); opacity: 0; }
