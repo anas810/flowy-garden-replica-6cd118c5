@@ -13,7 +13,7 @@ export function FeeRouting({ state }: { state: State }) {
         Fee routing
       </span>
 
-      <div className="relative mt-4 flex h-28 items-center">
+      <div className="relative mt-1 flex h-28 items-center">
         {/* fees source */}
         <span
           className="label block w-10 text-center text-[9px] tracking-widest"
