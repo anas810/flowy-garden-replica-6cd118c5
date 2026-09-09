@@ -3,7 +3,7 @@ type State = "expansion" | "contraction";
 export function Exits({ state }: { state: State }) {
   const positive = state === "expansion";
   const accent = positive ? "var(--expansion)" : "var(--contraction)";
-  const label = positive ? "cheap" : "priced by the crowd";
+  
 
   return (
     <div
