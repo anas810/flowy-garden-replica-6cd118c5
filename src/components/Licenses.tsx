@@ -113,6 +113,10 @@ export function Licenses({ state }: { state: State }) {
         </div>
       </div>
 
+      <span className="label block text-center text-[10px] text-black">
+        {positive ? "cost more (floor scales with the rate)" : "cost less"}
+      </span>
+
       <style>{`
         @keyframes license-sparkline-up {
           0%   { stroke-dashoffset: 52; opacity: 0; transform: translateY(2px); }
