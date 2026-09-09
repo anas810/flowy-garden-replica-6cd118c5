@@ -3,7 +3,7 @@ type State = "expansion" | "contraction";
 export function Exits({ state }: { state: State }) {
   const positive = state === "expansion";
   const accent = positive ? "var(--expansion)" : "var(--contraction)";
-  const label = positive ? "cheap" : "priced by the crowd";
+  
 
   return (
     <div
@@ -18,7 +18,7 @@ export function Exits({ state }: { state: State }) {
         {/* closed bank + running man */}
         <svg
           viewBox="0 0 118 76"
-          className="h-20 w-auto"
+          className="h-20 w-auto translate-x-2"
           fill="none"
           stroke={accent}
           strokeWidth="1.5"
@@ -73,13 +73,6 @@ export function Exits({ state }: { state: State }) {
           </g>
         </svg>
 
-        {/* state label */}
-        <span
-          className="label text-center text-[10px]"
-          style={{ color: accent }}
-        >
-          {label}
-        </span>
       </div>
 
       <style>{`
