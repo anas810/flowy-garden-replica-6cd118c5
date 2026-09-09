@@ -6,14 +6,14 @@ export function Licenses({ state }: { state: State }) {
 
   return (
     <div
-      className="licenses pointer-events-none absolute right-8 top-8 w-36 sm:right-14 sm:top-10 sm:w-44"
+      className="licenses pointer-events-none absolute right-8 top-8 flex w-40 flex-col items-center sm:right-14 sm:top-10 sm:w-48"
       aria-hidden="true"
     >
-      <span className="label block text-center text-[10px] text-muted-foreground">
+      <span className="label flex h-4 w-full items-center justify-center text-center text-[10px] text-muted-foreground">
         Licenses
       </span>
 
-      <div className="relative mt-1 flex h-28 flex-col items-center justify-center">
+      <div className="relative mt-1 flex h-28 w-full flex-col items-center justify-center">
         {/* paper license + price tag */}
         <div className="relative flex h-16 items-center justify-center">
           {/* paper license */}
@@ -113,7 +113,7 @@ export function Licenses({ state }: { state: State }) {
         </div>
       </div>
 
-      <span className="label block text-center text-[10px] text-black">
+      <span className="label mt-2 flex h-8 w-full items-start justify-center text-center text-[10px] leading-tight text-black">
         {positive ? "cost more (floor scales with the rate)" : "cost less"}
       </span>
 

@@ -6,14 +6,14 @@ export function FeeRouting({ state }: { state: State }) {
 
   return (
     <div
-      className="fee-routing pointer-events-none absolute left-8 bottom-8 w-36 sm:left-14 sm:bottom-10 sm:w-44"
+      className="fee-routing pointer-events-none absolute left-8 bottom-8 flex w-40 flex-col items-center sm:left-14 sm:bottom-10 sm:w-48"
       aria-hidden="true"
     >
-      <span className="label block text-center text-[10px] text-muted-foreground">
+      <span className="label flex h-4 w-full items-center justify-center text-center text-[10px] text-muted-foreground">
         Fee routing
       </span>
 
-      <div className="relative mt-1 flex h-28 items-center">
+      <div className="relative mt-1 flex h-28 w-full items-center justify-center">
         {/* fees source */}
         <span
           className="label block w-10 text-center text-[9px] tracking-widest"
@@ -157,7 +157,7 @@ export function FeeRouting({ state }: { state: State }) {
         </div>
       </div>
 
-      <span className="label block text-center text-[10px] text-black">
+      <span className="label mt-2 flex h-8 w-full items-start justify-center text-center text-[10px] leading-tight text-black">
         {positive ? "hard reserve assets" : "buyback and burn"}
       </span>
 

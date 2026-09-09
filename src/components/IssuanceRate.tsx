@@ -6,14 +6,14 @@ export function IssuanceRate({ state }: { state: State }) {
 
   return (
     <div
-      className="issuance-rate pointer-events-none absolute left-8 top-8 w-36 sm:left-14 sm:top-10 sm:w-44"
+      className="issuance-rate pointer-events-none absolute left-8 top-8 flex w-40 flex-col items-center sm:left-14 sm:top-10 sm:w-48"
       aria-hidden="true"
     >
-      <span className="label block text-center text-[10px] text-muted-foreground">
+      <span className="label flex h-4 w-full items-center justify-center text-center text-[10px] text-muted-foreground">
         Issuance rate
       </span>
 
-      <div className="relative mt-1 h-28">
+      <div className="relative mt-1 h-28 w-full">
         {/* sparkline behind the token */}
         <svg
           viewBox="0 0 120 70"
@@ -91,7 +91,7 @@ export function IssuanceRate({ state }: { state: State }) {
         </div>
       </div>
 
-      <span className="label block text-center text-[10px] text-black">
+      <span className="label mt-2 flex h-8 w-full items-start justify-center text-center text-[10px] leading-tight text-black">
         {positive ? "climbing (if sustained)" : "cut immediately"}
       </span>
 
